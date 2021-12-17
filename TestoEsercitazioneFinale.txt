@@ -1,0 +1,91 @@
+﻿Esercitazione finale - WEB
+ATTENZIONE: Le domande a risposta multipla possono contenere più risposte corrette. 
+1. Quale combinazione attributo-valore rende valido il seguente tag HTML? 
+<img attributo=”valore”/> 
+Opzioni per attributo: (C)
+a) url
+b) href  
+c) src    X
+d) source
+Opzioni per valore:   (B)
+a) www.fruit.com/fruit.png 
+b) http://www.fruit.com   X
+c) http://www.fruit.com/fruit.png 
+2. Osservando la pagina HTML sotto (dopo la domanda 3), indicare alcuni selettori che 
+consentono di selezionare tutti gli elementi li. 
+
+.color {}
+li {}
+
+
+3. Osservando la pagina HTML sotto, scrivere la regola CSS che consente di cambiare il colore 
+di background (con la stessa regola!) sia dell’elemento il cui id è ‘welcome’ sia degli 
+elementi il cui class name è ‘color’. 
+
+
+#welcome, .color { background-color: white;}
+
+
+<!doctype html> 
+<html> 
+<head>
+<meta charset="utf-8"> 
+<title>Homepage</title> 
+</head> 
+<body> 
+ <h1>Homepage</h1> 
+ <p id=”welcome”>Benvenuti!</p> 
+<ul> 
+<li class="color">Giallo</li>
+<li class="color">Blu</li> 
+</ul> 
+</body> 
+</html> 
+5. Scrivere l’espressione per creare un hyperlink che conduce a www.avanade.com,
+inserendo come testo ‘descrittivo’ Avanade. 
+
+<a href:"www.avanade.com">Avanade</a>
+
+6. Scegli l’elemento HTML corretto per avere l’heading più grande: (C)
+a. <head> 
+b. <h6>
+c. <h1>   X
+d. <header> 
+
+
+Esercitazione pratica 
+
+Realizzare un sito per descrivere un film con le seguenti pagine: 
+• Home 
+• Scheda Tecnica 
+• News 
+Le pagine devono contenere una barra di navigazione orizzontale con i link a Home, Scheda 
+Tecnica e News. 
+Passando il cursore sul singolo elemento della barra di navigazione deve cambiare lo sfondo 
+dell’elemento. 
+• Home 
+- Deve contenere il video del trailer del film centralmente (suggerimento: usare tag: iframe) 
+• Scheda Tecnica 
+- Mostrare le seguenti informazioni: Durata, Genere, Anno di uscita, Regista, Cast
+- Inserire la trama del film. 
+- Inserire due immagini: una a destra e una sinistra della trama. 
+• News 
+- Deve avere una form con campo testuale per inserire la propria mail e un pulsante 
+Subscribe. 
+In ogni pagina inserire un pulsante che faccia ritornare l’utente alla home (tranne nella pagina 
+Home stessa). 
+Inserire in ogni pagina un footer con il vostro nome e cognome. 
+• Stile 
+- I font e i colori sono a vostra discrezione MA NON utilizzate il default. 
+• Interattività 
+- Un utente può iscriversi alla Newsletter inserendo la propria mail (nome@gmail.com) nella 
+pagina News e cliccando Subscribe. 
+- Se l’utente non ha inserito alcun testo, il pulsante Subscribe deve essere disabilitato.
+ Il tasto Subscribe si abilita se l’utente ha scritto qualcosa nel campo email.
+- Se l’utente ha effettuato la sottoscrizione alla newsletter, allora nella pagina News sarà 
+visibile solo un pulsante “Unsubscribe”. 
+- Se l’utente ha effettuato la sottoscrizione alla newsletter, allora ogni qual volta che l’utente 
+entra nella pagina Home sarà inviato un alert con scritto “Benvenuto” con il nome 
+dell’utente. 
+- Se l’utente clicca Unsubscribe, la sua iscrizione viene cancellata. 
+Caricare la prova pratica e teorica su Github come Week5_NomeCognome.
